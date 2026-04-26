@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: rnet-spring-demo
+server:
+  address: 127.0.0.1
+
+rnet:
+  developer:
+    key: "<developer key>"
+
+jwt:
+  secret: "rNet-protocol-with-developer's-jwt-token"
+  expiration: 86400000
